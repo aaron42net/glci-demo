@@ -1,0 +1,13 @@
+{% import "fmt" %}
+
+{% func Foo() %}
+Some text to return.
+{% endfunc %}
+
+{% code
+// This is a badly formatted comment.
+func Bar() {
+    // Bad format usage.
+    fmt.Printf("%s\n", 345)
+}
+%}
