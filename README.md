@@ -6,7 +6,8 @@ Usage:
     go get -u github.com/valyala/quicktemplate
     go get -u github.com/valyala/quicktemplate/qtc
     go get -u golang.org/x/lint/golint
-    go get -u github.com/golangci/golangci-lint
+    go get -u github.com/golangci/golangci-lint/...
+    export PATH="$PATH:$GOPATH/bin"
 
     go get -u -d github.com/aaron42net/glci-demo
     cd $GOPATH/src/github.com/aaron42net/glci-demo
